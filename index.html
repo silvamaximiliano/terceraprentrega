@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zapas web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./img/pexels-aman-jakhar-1124465.jpg" alt="Logo de zapasweb">
+        </div>
+        <div class="titulo-container">
+            <h1 id="titulo">Zapas web</h1>
+            <h2 id="subtitulo">Productos Actualmente disponibles</h2>
+        </div>
+        <div class="whatsapp-container">
+            <a href="https://wa.me/2234219779?text=Hola%2C%20Buen%20dia%21%20Tengo%20una%20consulta%20respecto%20a%20los%20suplementos%20deportivos.">
+                <img src="https://i.ibb.co/q7KJSp2/Logo-Wpp.jpg" alt="Logo-Wpp" border="0">
+                <span>Escriba sus consultas!</span>
+            </a>
+        </div>
+        <button id="abrir-carrito" class="oculto"> Mi Carrito</button>
+
+    </header>
+    <main>
+        <!-- Grid para los productos -->
+        <div class="row" id="grid-productos">
+            <!-- Aquí se insertarán los productos mediante JS -->
+            <div id="carrito"class="oculto">
+                <div id="carrito-container" class="oculto"></div>
+                <div class="carrito-total oculto">Total: $<span id="total">0</span></div>
+                <button id="hacer-pedido" class="oculto hacer-pedido">Hacer pedido</button>
+            </div>        
+        </div>
+    </main>
+    
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Contacto</h2>
+                <p>Teléfono: +1111111111</p>
+                <p>Correo electrónico: info@zapasweb.com</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Redes Sociales</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h2>Newsletter</h2>
+                <form action="#" method="POST">
+                    <label for="email">Suscríbete a nuestro boletín de noticias:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <input type="submit" value="Suscribirse">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2023 zapas web- Todos los derechos reservados</p>
+                </div>
+        </div>
+    </div>
+    </footer>
+    <script src="index.js"></script> 
+</body>
+</html>

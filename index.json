@@ -1,0 +1,59 @@
+[
+    {
+        "nombre": "Nike libres",
+        "precio": 23000,
+        "imagen": "img/pexels-aman-jakhar-1124466.jpg",
+        "descripcion": "Nike negra pipa blanca",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Nike red",
+        "precio": 30000,
+        "imagen": "img/pexels-jd-danny-2385477.jpg",
+        "descripcion": "Super comodas y faheras nike red.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Nike grid ",
+        "precio": 75000,
+        "imagen": "img/pexels-jishnu-radhakrishnan-1554099.jpg",
+        "descripcion": "Mega nike gris super comodas a la moda.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Nike color",
+        "precio": 33350,
+        "imagen": "img/pexels-melvin-buezo-2529157.jpg",
+        "descripcion": "color luci tu estilo.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "libre red",
+        "precio": 16600,
+        "imagen": "img/pexels-pixabay-33148.jpg",
+        "descripcion": "la comodidad lo es todo siempre .",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "nike",
+        "precio": 42200,
+        "imagen": "img/pexels-rafa-de-345415.jpg",
+        "descripcion": "dias extremos.",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "best nike",
+        "precio": 10000,
+        "imagen": "img/pexels-ray-piedra-1478442.jpg",
+        "descripcion": "viste lo qu tu quieras .",
+        "disponibilidad": true
+    },
+    {
+        "nombre": "Nike style",
+        "precio": 30000,
+        "imagen": "img/pexels-shane-aldendorff-786003.jpg",
+        "descripcion": "nike style viste estilo urbano.",
+        "disponibilidad": true
+    }
+  ]
+  
